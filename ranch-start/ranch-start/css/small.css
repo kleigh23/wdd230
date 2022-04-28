@@ -9,7 +9,7 @@ body {
 
 /* header rules here */
 header {
-    background-color: #17a8e4;
+    background-color: #c5dac1;
     padding: 1rem 2%;
 }
 
@@ -40,7 +40,7 @@ main {
     padding: 1rem 2%;
     display: block;
 }
-main h1 {color: #17a8e4;}
+main h1 {color: #c5dac1;}
 
 main figure img {width: 100%;}
 main figure {
@@ -52,5 +52,5 @@ main figcaption {text-align: center; font-size: .8rem;}
 footer {
     text-align: center;
     padding: 1rem 2%;
-    background-color: #19a8e4;
+    background-color: #c5dac1;
 }
