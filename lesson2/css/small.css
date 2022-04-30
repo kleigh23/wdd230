@@ -38,9 +38,7 @@ section {
     background-color: #f7c59f;
 }
 
-figure {
-    size: 200px;
-}
+section figure img {width: 100%}
 
 footer {
     padding: 1rem;

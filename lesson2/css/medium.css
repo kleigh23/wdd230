@@ -1,0 +1,19 @@
+@media only screen and (min-width: 560px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    .one {
+        grid-column: 1 / 2;
+    }
+
+    .two {
+        grid-column: 2 / 3;
+    }
+
+    .three {
+        grid-column: 1 / 3;
+    }
+}
