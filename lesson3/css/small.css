@@ -1,0 +1,108 @@
+* { -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; box-sizing:border-box; }
+
+header {
+    background-color: #fb8500;
+    padding: 1rem 2%;
+    text-align: center;
+}
+
+nav {background-color: #023047;}
+nav ul {margin: 0; padding: 0;}
+nav li {list-style-type: none;}
+nav li.active {background-color: #333;}
+nav a {
+    display: block;
+    padding: .8rem; /* 44 min height */
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'BenchNine', sans-serif;
+    font-size: x-large;
+}
+nav a:hover {background-color: #444;}
+
+main {
+    padding: 1rem;
+    background-color: #ffb703;
+}
+
+.home-page {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Acme', sans-serif;
+} 
+
+h2 {
+    color: #023047;
+    font-family: 'Overlock', cursive;
+}
+
+p {
+    color: #023047;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+ol, li {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999;
+}
+
+.site-header {
+    background-color: #fb8500;
+}
+
+.primary-navigation, .footer-navigation {
+    color: white;
+    background-color: #023047;
+}
+
+.heading1 {
+    color: white;
+    background-color: black;
+} 
+
+.heading2, .heading3 {
+    color: white;
+    background-color: #023047;
+}
+
+.paragraph-text {
+    color: white;
+    background-color: #023047;
+}
+
+.site-header-type, .heading1-type {
+    font-family: 'Acme', sans-serif;
+}
+
+.primary-navigation-type, .footer-navigation-type {
+    font-family: 'BenchNine', sans-serif;
+}
+
+.heading2-type, .heading3-type {
+    font-family: 'Overlock', cursive;
+}
+
+.paragraph-text-type {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 1rem 2%;
+    background-color: #023047;
+}
