@@ -1,5 +1,10 @@
 @media only screen and (min-width: 560px) {
 
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-size: x-large;
+}
 nav ul {display: flex;}
 nav ul li {flex-basis: 25%;}
 }
