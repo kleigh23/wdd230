@@ -1,0 +1,8 @@
+/* 64rem is also 1028px when bsaefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+nav ul li a{
+    padding: .5rem 1rem;
+}
+
+} /* end large */
