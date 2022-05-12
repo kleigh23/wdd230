@@ -1,11 +1,11 @@
-const datefield = document.querySelector("#currentDate");
+const datefieldUK = document.querySelector("#currentDate");
 
 const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
-now
-);
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+	dateStyle: "full"
+}).format(now);
 
-datefield.innerHTML = `<em>${fulldate}</em>`;
+datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 function toggleMenu() {
     document.querySelector("#primaryNav").classList.toggle("open");
