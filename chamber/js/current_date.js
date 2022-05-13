@@ -18,3 +18,6 @@ x.onclick = toggleMenu;
 
 let oLastModif = document.lastModified;
 document.querySelector("#currentdate").textContent = oLastModif;
+
+let year = now.getFullYear();
+document.querySelector("#year").textContent = year;
