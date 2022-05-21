@@ -105,11 +105,40 @@ main {
     border: 1px solid black;
     grid-column: 1 / 3;
     grid-row: 3 / 5;
+    background-color: #ffb703;
+    position: relative;
+}
+
+.welcome {
+    font-size: xx-large;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+div#message {
+    background-color: #ffb703;
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+}
+div.showme{display: block;}
+div.hideme{display: none;}
+
+.join_chamber_btn {
+    background-color: #fb8500;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0.35rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    box-shadow: 0 0 30px rgb(60, 58, 58);
 }
 
 .hero img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .news {
@@ -127,6 +156,12 @@ main {
     background-color: #ffb703;
     grid-column: 1 / 3;
     grid-row: 7 / 9;
+    text-align: center;
+}
+
+.spotlight1 img {
+    width: 50%;
+    height: auto;
 }
 
 .spotlight2 {
@@ -135,6 +170,12 @@ main {
     background-color: #ffb703;
     grid-column: 1 / 3;
     grid-row: 9 / 11;
+    text-align: center;
+}
+
+.spotlight2 img {
+    width: 50%;
+    height: auto;
 }
 
 .join {
@@ -144,6 +185,14 @@ main {
     grid-column: 1 / 3;
     grid-row: 11 / 13;
     text-align: center;
+}
+
+.join_button {
+    background-color: #fb8500;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0.35rem;
+    margin-left: 1rem;
+    font-size: 1.1rem;
 }
 
 .event {
@@ -162,6 +211,25 @@ main {
     background-color: #ffb703;
     grid-column: 1 / 3;
     grid-row: 15 / 17;
+}
+
+.temp {
+    float: right;
+    font-size: 3rem;
+}
+
+.weather img {
+    width: 50%;
+    height: auto;
+}
+
+.weather_info {
+    text-align: center;
+}
+
+.wind {
+    border-top: 1px solid black;
+    font-size: larger;
 }
 
 footer {

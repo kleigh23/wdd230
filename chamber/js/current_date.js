@@ -27,3 +27,14 @@ document.querySelector("#currentdate").textContent = oLastModif;
 // This is for the year for the copy right.
 let year = now.getFullYear();
 document.querySelector("#year").textContent = year;
+
+const dayNumber = now.getDay();
+console.log(dayNumber);
+
+const element = document.querySelector("#message");
+
+if (dayNumber == 1 || dayNumber == 2) {
+    element.classList.add("showme");
+} else {
+    element.classList.add("hideme");
+}

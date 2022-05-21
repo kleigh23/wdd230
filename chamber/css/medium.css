@@ -5,6 +5,10 @@
         border: 1px solid black;
     }
 
+    .join_chamber_btn {
+        font-size: 3rem;
+    }
+
     .spotlight1 {
         grid-column: 1 / 2;
         grid-row: 7 / 9;
