@@ -92,6 +92,13 @@ main {
     font-family: 'Alegreya Sans', sans-serif;
 }
 
+main picture.hrsrc_banner {
+    margin: 0;
+    grid-column: 1 / 5;
+}
+
+main picture.hrsrc_banner img {width: 100%}
+
 .page_name {
     margin: 0;
     background: #ffb703;
