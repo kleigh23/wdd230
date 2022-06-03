@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="This home page will have infomation about events and splotlight
+    bussinesses and a few other things">
+    <title>The Gate City</title>
+    <link rel="shortcut icon" href="gate_favicon_2.0.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Alegreya+Sans&family=BenchNine&family=Overlock&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/gate_square_google.webp" alt="gate logo"></a>
+        <div>
+            <h1>The Gate City Chamber of Commerce</h1>
+            <h2>Proud to Be Pocatello</h2> 
+                
+        </div>
+        <span id="currentDate"></span>
+    </header>
+    <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>             
+                    <ul id="primaryNav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="discover.html">Discover</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="media_icon">
+                        <a href="https://www.facebook.com/"><img src="images/facebook_icon(1).png" alt="facebook logo"></a>
+                        <a href="https://www.instagram.com/"><img src="images/instagram_icon.png" alt="instagram_icon">,</a>
+                        <a href="https://www.twitter.com/"><img src="images/twitter_icon.png" alt="twitter_icon"></a>
+                    </div>
+                </nav> 
+    <main class="discover_main">
+    
+        <h1 class="page_name">Discover Page</h1>
+        <div class="rows">
+            <div class="column1">
+                <picture>
+                    <img class="discover_img" src="images/placeholder-300x400.png" data-src ="images/canada_geese1000.jpg" alt="geese" sizes="50vw"
+                    srcset="images/canada_geese400.jpg 400w, images/canada_geese650.jpg 650w, images/canada_geese1000.jpg 900w">
+                </picture>
+                <h2>Enjoy Pocatello's wide veriety water fowl</h2>
+            </div>
+            <div class="column2">
+                <picture>
+                    <img class="discover_img" src="images/placeholder-300x400.png" data-src ="images/river1000.jpg" alt="river" sizes="50vw"
+                    srcset="images/river400.jpg 400w, images/river650.jpg 650w, images/river1000.jpg 900w">
+                </picture>
+                <h2>Enjoy all of Pocatello's aquatic views</h2>
+            </div>
+            <div class="column3">
+                <picture>
+                    <img class="discover_img" src="images/placeholder-300x400.png" data-src ="images/wilderness1000.jpg" alt="wilderness" sizes="50vw"
+                    srcset="images/wilderness400.jpg 400w, images/wilderness650.jpg 650w, images/wilderness1000.jpg 900w">
+                </picture>
+                <h2>Exerience the hundreds of miles of hiking trails</h2>
+            </div>
+            <div class="column4">
+                <picture>
+                    <img class="discover_img" src="images/placeholder-300x400.png" data-src ="images/mountain1000.jpg" alt="mountain" sizes="50vw"
+                    srcset="images/mountain400.jpg 400w, images/mountain650.jpg 650w, images/mountain1000.jpg 900w">
+                </picture>
+                <h2>GO CAMPING! in one of many of pocatellos many camping areas</h2>
+            </div>
+            <div class="column5">
+                <picture>
+                    <img class="discover_img" src="images/placeholder-300x400.png" data-src ="images/moose1000.jpg" alt="moose" sizes="50vw"
+                    srcset="images/moose400.jpg 400w, images/moose650.jpg 650w, images/moose1000.jpg 900w">
+                </picture>
+                <h2>Come face to face with many o fidahos wildlife</h2>
+            </div>
+            <div class="column6">
+                <picture>
+                    <img class="discover_img" src="images/placeholder-300x400.png" data-src ="images/idaho1000.jpg" alt="idaho" sizes="50vw"
+                    srcset="images/idaho400.jpg 400w, images/idaho650.jpg 650w, images/idaho1000.jpg 900w">
+                </picture>
+                <h2>Relax with mountain views of Pocatello's views</h2>
+            </div>
+        </div>    
+
+    </main>
+    <footer>
+        <picture class="footer_logo">
+            <img src="images/gate_square_2.0google75.webp" alt="gate logo">
+        </picture> 
+        <div class="title">
+            <p>The Gate City</p>
+            <p>Address line 1</p>
+            <p>Pocatello, ID 83202</p>
+        </div>
+        <div class="email">
+            <p>email@address.org</p>
+            <p>+(223)555-1234</p>
+        </div>
+        <div class="map">
+            <a href="https://www.google.com/maps/place/Pocatello,+ID/@42.8687025,-112.5660482,12z/data=!3m1!4b1!4m5!3m4!1s0x53554f20d5d09b0d:0x70c6a2484ce39b0!8m2!3d42.8621042!4d-112.4506191">Link to Map</a>
+        </div>
+        <div class="last_visit">
+            <span id="lastVisit">HI</span>
+        </div>
+        <div class="project_name">
+            <p>&copy;<span id="year"></span> The Gate Chamber | Kelley Robertson | WDD 230 Project | Last Modification: <span id="currentdate"></span>
+        </div>
+    </footer>
+    <script src="js/discover.js"></script>
+</body>
+</html>

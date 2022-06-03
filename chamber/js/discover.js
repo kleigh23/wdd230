@@ -28,35 +28,6 @@ document.querySelector("#currentdate").textContent = oLastModif;
 let year = now.getFullYear();
 document.querySelector("#year").textContent = year;
 
-const dayNumber = now.getDay();
-//console.log(dayNumber);
-
-const element = document.querySelector("#message");
-
-if (dayNumber == 1 || dayNumber == 2) {
-    element.classList.add("showme");
-} else {
-    element.classList.add("hideme");
-}
-
-// this is for the wind chill
-const tempNumber = parseFloat(document.querySelector("#tempeture").textContent);
-//console.log(tempNumber);
-
-const speedNumber = parseFloat(document.querySelector("#speed").textContent);
-//console.log(speedNumber);
-
-let windchill = 35.74 + (0.6215 * tempNumber) - (35.75 * Math.pow(speedNumber,
-    0.16)) + (0.4275 * tempNumber * Math.pow(speedNumber, 0.16));
-windchill = Math.round(windchill);
-//console.log(windchill);
-
-if(tempNumber<=50 && speedNumber >3) {
-    document.querySelector("#chill").textContent = "Wind Chill: "+windchill+"\xB0F";
-} else {
-    document.querySelector("#chill").textContent = "Wind Chill: N/A"
-}
-
 // lazy load js
 const imagesToLoad = document.querySelectorAll("img[data-src]");
 
@@ -91,3 +62,27 @@ else {
         loadImages(img);
     });
 }
+
+// message for how many days since last visit
+const visitDisplay = document.querySelector('#lastVisit')
+
+const mInDay = 1000 * 60 * 60 * 24;
+
+const today = Number(Date.now());
+
+console.log(`millisecond in a day is ${mInDay}`);
+
+let lastVisit = Number(window.localStorage.getItem("visit-is"));
+
+localStorage.setItem("visit-is", today);
+
+let difference = Math.round((now - lastVisit)/mInDay);
+
+console.log(difference)
+
+if (difference == 0) {
+    visitDisplay.textContent = `Welcome to the Website!`
+} else {
+    visitDisplay.textContent = (`Days since last visit ${difference}`);
+}
+

@@ -53,6 +53,15 @@
         grid-column: 2 / 3;
     }
 
+    .discover_img:hover {
+        box-shadow: 0 0 50px #333;
+    }
+
+    .last_visit {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
 
 
 
