@@ -1,0 +1,52 @@
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+body {
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.one {
+    grid-row: 2 / 3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.two {
+    grid-row: 3 / 4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.three {
+    grid-row: 4 / 5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.four {
+    grid-row: 5 / 6;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.five {
+    grid-row: 6 / 7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.six {
+    grid-row: 7 / 8;
+    margin-left: auto;
+    margin-right: auto;
+}
