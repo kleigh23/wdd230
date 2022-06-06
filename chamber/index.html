@@ -40,9 +40,16 @@
                     </div>
                 </nav> 
     <main>
-        <picture class="hrsrc_banner">
+        <!-- <picture class="hrsrc_banner">
             <img src="images/heroSrcdefault.jpg" alt="peeps talking" sizes="100vw" 
                 srcset="images/heroSrc400.jpg 400w, images/heroSrc650.jpg 650w, images/heroSrc900.jpg 900w">
+        </picture> -->
+
+        <picture class="hrsrc_banner">
+            <source media="(max-width: 400px)" srcset="images/heroSrc400.jpg">
+            <source media="(max-width: 650px)" srcset="images/heroSrc650.jpg">
+            <source media="(max-width: 900px)" srcset="images/heroSrc900.jpg">
+            <img src="images/heroSrcdefault.jpg" alt="peeps talking">
         </picture>
         
     
