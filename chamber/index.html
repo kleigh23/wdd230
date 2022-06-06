@@ -55,9 +55,15 @@
     
         <h1 class="page_name">Home Page</h1>
         <div class="hero">
-            <picture class="hrsrc_banner">
+            <!-- <picture class="hrsrc_banner">
                 <img src="images/pocatello_pic_default.jpg" alt="peeps talking" sizes="100vw" 
                     srcset="images/pocatello_pic400.jpg 400w, images/pocatello_pic650.jpg 650w, images/pocatello_pic900.jpg 900w">
+            </picture> -->
+            <picture class="hrsrc_banner">
+                <source media="(max-width: 400px)" srcset="images/pocatello_pic400.jpg">
+                <source media="(max-width: 650px)" srcset="images/pocatello_pic650.jpg">
+                <source media="(max-width: 1800px)" srcset="images/pocatello_pic900.jpg">
+                <img src="images/pocatello_pic_default.jpg" alt="peeps talking">
             </picture>
             <!--<img src="images/pocatello_pic_2.0.jpg" alt="Arch at ISU">-->
             <h2 class="welcome">Welcome to Pocatello</h2>
