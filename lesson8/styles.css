@@ -39,6 +39,11 @@ td {
 	text-align: center;
 }
 
+.made_it {
+    background-color: var(--back);
+    color: var(--forelight);
+}
+
 .black_friday {
     font-style: italic;
 }
