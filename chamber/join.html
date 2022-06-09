@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="This home page will have infomation about events and splotlight
+    bussinesses and a few other things">
+    <title>The Gate City</title>
+    <link rel="shortcut icon" href="gate_favicon_2.0.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Alegreya+Sans&family=BenchNine&family=Overlock&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/gate_square_google.webp" alt="gate logo"></a>
+        <div>
+            <h1>The Gate City Chamber of Commerce</h1>
+            <h2>Proud to Be Pocatello</h2> 
+                
+        </div>
+        <span id="currentDate"></span>
+    </header>
+    <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>             
+                    <ul id="primaryNav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="media_icon">
+                        <a href="https://www.facebook.com/"><img src="images/facebook_icon(1).png" alt="facebook logo"></a>
+                        <a href="https://www.instagram.com/"><img src="images/instagram_icon.png" alt="instagram_icon">,</a>
+                        <a href="https://www.twitter.com/"><img src="images/twitter_icon.png" alt="twitter_icon"></a>
+                    </div>
+                </nav> 
+    <main class="join_main">
+        <h1 class="page_name">Join Us</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2" class="header">Membership Benefits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>NP MemberShip</td>
+                    <td>Is for non profit organizastions and there is no fee</td>
+                </tr>
+                <tr>
+                    <td>Bronze Membership</td>
+                    <td>$100 fee and will have handouts of your business at events</td>
+                </tr>
+                <tr>
+                    <td>Silver Membership</td>
+                    <td>$200 fee and will get a banner of your business at events</td>
+                </tr>
+                <tr>
+                    <td>Gold Membership</td>
+                    <td>$300 You can bring a booth to events and we will advertise your bussiness on out magazine</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="Form">
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <h2>Application Information</h2>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Title <input type="text" name="title" pattern="[A-Za-z\-\s{8,}"></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="someone@gamil.com" required></label>
+                    <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                    <label class="top">Business Name <input type="text" name="businesName" required></label>
+                    <p>Membership Level</p>
+                    <label class="sbs"><input type="radio" name="memberLvl" value="np"> NP (non profit)</label>
+                    <label class="sbs"><input type="radio" name="memberLvl" value="bronze"> Bronze</label>
+                    <label class="sbs"><input type="radio" name="memberLvl" value="silver"> Silver</label>
+                    <label class="sbs"><input type="radio" name="memberLvl" value="gold"> Gold</label>
+                    <label class="top">Business Discription <input type="text" name="businesDisc"></label>
+                </fieldset>
+                <input type="hidden" id="currentdate" name="dateTime">
+                <input type="submit" value="Join Us!" class="submitBtn">
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <picture class="footer_logo">
+            <img src="images/gate_square_2.0google75.webp" alt="gate logo">
+        </picture> 
+        <div class="title">
+            <p>The Gate City</p>
+            <p>Address line 1</p>
+            <p>Pocatello, ID 83202</p>
+        </div>
+        <div class="email">
+            <p>email@address.org</p>
+            <p>+(223)555-1234</p>
+        </div>
+        <div class="map">
+            <a href="https://www.google.com/maps/place/Pocatello,+ID/@42.8687025,-112.5660482,12z/data=!3m1!4b1!4m5!3m4!1s0x53554f20d5d09b0d:0x70c6a2484ce39b0!8m2!3d42.8621042!4d-112.4506191">Link to Map</a>
+        </div>
+        <div class="project_name">
+            <p>&copy;<span id="year"></span> The Gate Chamber | Kelley Robertson | WDD 230 Project | Last Modification: <span id="currentdate"></span>
+        </div>
+    </footer>
+    <script src="js/current_date.js"></script>
+</body>
+</html>

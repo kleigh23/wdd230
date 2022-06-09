@@ -101,6 +101,7 @@ main picture.hrsrc_banner img {width: 100%}
 
 .page_name {
     margin: 0;
+    padding: 1rem;
     background: #ffb703;
     width: 100%;
     grid-column: 1 / 5;
@@ -318,4 +319,149 @@ img {
     grid-row: 7 / 8;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/* join.html css */
+
+
+/* table */
+:root {
+	--back: #fb8500;
+  --back2: rgba(249, 249, 249, 0.5);
+  --foredark: hsla(0,0%,10%,1);
+	--forelight: #023047;
+	--border: hsl(0,0%,20%);
+	--borderlight: rgb(171, 171, 171);
+	--shadow: hsl(0,0%,50%);
+	--zebra: rgb(255, 223, 160);
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	/* box-shadow: 0 0 30px var(--shadow); */
+	border-collapse: collapse;
+    font-family: 'Alegreya Sans', sans-serif;
+    grid-column: 1 / 5;
+    padding: 1rem;
+}
+
+.header {
+    font-size: x-large;
+}
+
+tr:first-child th {
+	background-color: var(--back);
+	color: var(--forelight);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+}
+
+td {
+	text-align: center;
+}
+
+.made_it {
+    background-color: var(--back);
+    color: var(--forelight);
+}
+
+.black_friday {
+    font-style: italic;
+}
+
+.footer {
+    font-size: smaller;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+
+/* form */
+
+.Form {
+    grid-column: 1 / 5;
+    padding: 1rem;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #023047;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    background-color: #ffb703;
+}
+
+form legend {
+    color: #023047;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #561000;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-apearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem;
+    color: #023047;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #fb8500;
+    color: #023047;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input {
+    background-color: white;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+    background-color: white;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+    background-color: white;
+}
+
+/* thanks page */
+.thanks {
+    text-align: center;
+    grid-column: 1 / 5;
+    background-color: #ffb703;
+    padding: 1rem;
 }
