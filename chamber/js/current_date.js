@@ -23,6 +23,10 @@ x.onclick = toggleMenu;
 let oLastModif = document.lastModified;
 document.querySelector("#currentdate").textContent = oLastModif;
 
+// this is for the last modfidied date in the footer.
+let submit = document.lastModified;
+document.querySelector("#dateTime").textContent = submit;
+
 
 // This is for the year for the copy right.
 let year = now.getFullYear();
