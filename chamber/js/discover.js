@@ -66,7 +66,8 @@ else {
 // message for how many days since last visit
 const visitDisplay = document.querySelector('#lastVisit')
 
-const mInDay = 1000 * 60 * 60 * 24;
+// const mInDay = 1000 * 60 * 60 * 24;
+const mInDay = 1000 * 60;
 
 const today = Number(Date.now());
 
@@ -86,7 +87,7 @@ if (difference == 0) {
     visitDisplay.textContent = (`Days since last visit ${difference}`);
 }
 
-numVisits++;
+lastVisit++;
 
-localStorage.setItem("visits-ls", numVisits);
+localStorage.setItem("visits-ls", lastVisit);
 
