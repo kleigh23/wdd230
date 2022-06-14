@@ -86,3 +86,7 @@ if (difference == 0) {
     visitDisplay.textContent = (`Days since last visit ${difference}`);
 }
 
+numVisits++;
+
+localStorage.setItem("visits-ls", numVisits);
+
