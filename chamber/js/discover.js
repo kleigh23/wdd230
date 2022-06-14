@@ -66,8 +66,7 @@ else {
 // message for how many days since last visit
 const visitDisplay = document.querySelector('#lastVisit')
 
-// const mInDay = 1000 * 60 * 60 * 24;
-const mInDay = 1000 * 60;
+const mInDay = 1000 * 60 * 60 * 24;
 
 const today = Number(Date.now());
 
