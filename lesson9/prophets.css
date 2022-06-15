@@ -1,0 +1,38 @@
+header {
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    color: #004346;
+}
+
+h2 {
+    font-family: 'Archivo', sans-serif;
+    color: #004346;
+}
+
+p {
+    font-family: 'Asap', sans-serif;
+}
+
+img {
+    box-shadow: 0 0 30px #777;
+}
+
+section {
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: #75dddd;
+    box-shadow: 0 0 30px #777;
+}
+
+footer {
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    color: #004346;
+}
