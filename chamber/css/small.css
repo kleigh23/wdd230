@@ -467,3 +467,64 @@ form label.top input:required:valid {
     background-color: #ffb703;
     padding: 1rem;
 }
+
+/* Directory Page */
+
+section {
+    text-align: center;
+    background-color: #ffb703;
+    box-shadow: 0 0 30px #777;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.cards {
+    grid-column: 1 / 5;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #023047;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+    background-color: #ffb703;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.list section {
+	flex-direction: row;
+	justify-content: center;
+}
+
+.list section > * {
+	margin: 0 1rem;
+	text-align: center;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */ 
+}
+
+@media (min-width: 880px) {
+	.list section img {
+		display: block;
+	}
+}

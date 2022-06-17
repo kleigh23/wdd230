@@ -29,7 +29,7 @@
                     <ul id="primaryNav">
                         <li class="active"><a href="index.html">Home</a></li>
                         <li><a href="discover.html">Discover</a></li>
-                        <li><a href="directory.html">Directory</a></li>
+                        <li><a href="#">Directory</a></li>
                         <li><a href="join.html">Join</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -39,56 +39,15 @@
                         <a href="https://www.twitter.com/"><img src="images/twitter_icon.png" alt="twitter_icon"></a>
                     </div>
                 </nav> 
-    <main class="join_main">
-        <h1 class="page_name">Join Us</h1>
+    <main class="main">
 
-        <table>
-            <thead>
-                <tr>
-                    <th colspan="2" class="header">Membership Benefits</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>NP MemberShip</td>
-                    <td>Is for non profit organizastions and there is no fee</td>
-                </tr>
-                <tr>
-                    <td>Bronze Membership</td>
-                    <td>$100 fee and will have handouts of your business at events</td>
-                </tr>
-                <tr>
-                    <td>Silver Membership</td>
-                    <td>$200 fee and will get a banner of your business at events</td>
-                </tr>
-                <tr>
-                    <td>Gold Membership</td>
-                    <td>$300 fee and you can bring a booth to events and we will advertise your bussiness on out magazine</td>
-                </tr>
-            </tbody>
-        </table>
-        <div class="Form">
-            <form method="get" action="thanks.html">
-                <fieldset>
-                    <h2>Application Information</h2>
-                    <label class="top">First Name* <input type="text" name="fname" required></label>
-                    <label class="top">Last Name* <input type="text" name="lname" required></label>
-                    <label class="top">Title <input type="text" name="title" pattern="[A-Za-z\-\s{8,}"></label>
-                    <label class="top">Email* <input type="email" name="email" placeholder="someone@gamil.com" required></label>
-                    <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
-                    <label class="top">Business Name <input type="text" name="businesName" required></label>
-                    <p>Membership Level</p>
-                    <label class="sbs"><input type="radio" name="memberLvl" value="np"> NP (non profit)</label>
-                    <label class="sbs"><input type="radio" name="memberLvl" value="bronze"> Bronze</label>
-                    <label class="sbs"><input type="radio" name="memberLvl" value="silver"> Silver</label>
-                    <label class="sbs"><input type="radio" name="memberLvl" value="gold"> Gold</label>
-                    <label class="top">Business Discription <input type="text" name="businesDisc"></label>
-                </fieldset>
-                <input type="hidden" id="dateTime" name="dateTime">
-                <input type="submit" value="Join Us!" class="submitBtn">
-            </form>
+        <h1 class="page_name">Directory Page</h1>
+        <div class="menu">
+            <button id="grid">Grid</button>
+            <button id="list">List</button>
         </div>
-
+        <div class="cards"></div>
+        
     </main>
     <footer>
         <picture class="footer_logo">
@@ -111,5 +70,6 @@
         </div>
     </footer>
     <script src="js/current_date.js"></script>
+    <script src="js/directory.js"></script>
 </body>
 </html>

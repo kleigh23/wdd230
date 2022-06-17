@@ -1,0 +1,76 @@
+{
+    "companies": [
+        {
+            "name": "King Georges Plumbing",
+            "address": "Address Informaiton Goes Here",
+            "phone": "(223)555-1234",
+            "websiteUrl": "#",
+            "imgUrl": "https://cdn.pixabay.com/photo/2017/03/06/00/37/plumbing-2120323_960_720.png",
+            "memberLvl": "Member Level"
+        },
+        {
+            "name": "Carolina Parakeet Pet Services",
+            "address": "Address Informaiton Goes Here",
+            "phone": "(223)555-1234",
+            "websiteUrl": "#",
+            "imgUrl": "https://cdn.pixabay.com/photo/2017/02/01/00/33/animal-2028597_960_720.png",
+            "memberLvl": "Member level"
+        },
+        {
+            "name": "Heath Hen Health Den",
+            "address": "Address Informaiton Goes Here",
+            "phone": "(223)555-1234",
+            "websiteUrl": "#",
+            "imgUrl": "https://cdn.pixabay.com/photo/2013/07/13/01/23/crystals-155644_960_720.png",
+            "memberLvl": "Member level"
+        },
+        {
+            "name": "Sea Mink Sports",
+            "address": "Address Informaiton Goes Here",
+            "phone": "(223)555-1234",
+            "websiteUrl": "#",
+            "imgUrl": "https://cdn.pixabay.com/photo/2013/07/13/10/51/bowling-157933_960_720.png",
+            "memberLvl": "Member level"
+        },
+        {
+            "name": "Green Anaconda Outlet",
+            "address": "Address Informaiton Goes Here",
+            "phone": "(223)555-1234",
+            "websiteUrl": "#",
+            "imgUrl": "https://cdn.pixabay.com/photo/2013/07/13/13/42/snake-161424_960_720.png",
+            "memberLvl": "Member level"
+        },
+        {
+            "name": "Black Caiman Shoes",
+            "address": "Address Informaiton Goes Here",
+            "phone": "(223)555-1234",
+            "websiteUrl": "#",
+            "imgUrl": "https://cdn.pixabay.com/photo/2017/01/19/09/11/icon-steps-1991839_960_720.png",
+            "memberLvl": "Member level"
+        },
+        {
+            "name": "Bull Shark Diving",
+            "address": "Address Informaiton Goes Here",
+            "phone": "(223)555-1234",
+            "websiteUrl": "#",
+            "imgUrl": "https://cdn.pixabay.com/photo/2016/06/13/13/46/shark-1454245_960_720.png",
+            "memberLvl": "Member level"
+        },
+        {
+            "name": "Posion Dart Frog Coffee",
+            "address": "Address Informaiton Goes Here",
+            "phone": "(223)555-1234",
+            "websiteUrl": "#",
+            "imgUrl": "https://cdn.pixabay.com/photo/2016/04/01/00/23/amphibian-1298147_960_720.png",
+            "memberLvl": "Member level"
+        },
+        {
+            "name": "Fennec Fencing",
+            "address": "Address Informaiton Goes Here",
+            "phone": "(223)555-1234",
+            "websiteUrl": "#",
+            "imgUrl": "https://cdn.pixabay.com/photo/2013/07/12/12/49/stones-146304_960_720.png",
+            "memberLvl": "Member level"
+        }
+    ]
+}
