@@ -230,6 +230,7 @@ div.hideme{display: none;}
 .weather img {
     width: 50%;
     height: auto;
+    background-color: #fff;
 }
 
 .weather_info {
