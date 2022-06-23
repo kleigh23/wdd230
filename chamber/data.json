@@ -5,7 +5,7 @@
             "address": "420 Quackers Ave",
             "phone": "(223)555-1234",
             "websiteUrl": "#",
-            "imgUrl": "https://cdn.pixabay.com/photo/2017/03/06/00/37/plumbing-2120323_960_720.png",
+            "imgUrl": "images/plumbing2.0.png",
             "memberLvl": "Member Level"
         },
         {
@@ -13,7 +13,7 @@
             "address": "120 S. 5th",
             "phone": "(223)555-1234",
             "websiteUrl": "#",
-            "imgUrl": "https://cdn.pixabay.com/photo/2017/02/01/00/33/animal-2028597_960_720.png",
+            "imgUrl": "images/birds2.0.png",
             "memberLvl": "Member level"
         },
         {
@@ -21,7 +21,7 @@
             "address": "1180 Seven Seas Dr.",
             "phone": "(223)555-1234",
             "websiteUrl": "#",
-            "imgUrl": "https://cdn.pixabay.com/photo/2013/07/13/01/23/crystals-155644_960_720.png",
+            "imgUrl": "images/crystals.png",
             "memberLvl": "Member level"
         },
         {
@@ -29,7 +29,7 @@
             "address": "200 epcot Center Dr.",
             "phone": "(223)555-1234",
             "websiteUrl": "#",
-            "imgUrl": "https://cdn.pixabay.com/photo/2013/07/13/10/51/bowling-157933_960_720.png",
+            "imgUrl": "images/bowling.png",
             "memberLvl": "Member level"
         },
         {
@@ -37,7 +37,7 @@
             "address": "2901 Osceola Pkwy",
             "phone": "(223)555-1234",
             "websiteUrl": "#",
-            "imgUrl": "https://cdn.pixabay.com/photo/2013/07/13/13/42/snake-161424_960_720.png",
+            "imgUrl": "images/snake.png",
             "memberLvl": "Member level"
         },
         {
@@ -45,7 +45,7 @@
             "address": "351 S. Studio Dr.",
             "phone": "(223)555-1234",
             "websiteUrl": "#",
-            "imgUrl": "https://cdn.pixabay.com/photo/2017/01/19/09/11/icon-steps-1991839_960_720.png",
+            "imgUrl": "images/icon-steps.png",
             "memberLvl": "Member level"
         },
         {
@@ -53,7 +53,7 @@
             "address": "1534 Blizzard Beach Dr.",
             "phone": "(223)555-1234",
             "websiteUrl": "#",
-            "imgUrl": "https://cdn.pixabay.com/photo/2016/06/13/13/46/shark-1454245_960_720.png",
+            "imgUrl": "images/shark.png",
             "memberLvl": "Member level"
         },
         {
@@ -61,7 +61,7 @@
             "address": "1145 E. Buena Vista Dr.",
             "phone": "(223)555-1234",
             "websiteUrl": "#",
-            "imgUrl": "https://cdn.pixabay.com/photo/2016/04/01/00/23/amphibian-1298147_960_720.png",
+            "imgUrl": "images/amphibian.png",
             "memberLvl": "Member level"
         },
         {
@@ -69,7 +69,7 @@
             "address": "1486 Buena Vista Dr.",
             "phone": "(223)555-1234",
             "websiteUrl": "#",
-            "imgUrl": "https://cdn.pixabay.com/photo/2013/07/12/12/49/stones-146304_960_720.png",
+            "imgUrl": "images/stones.png",
             "memberLvl": "Member level"
         }
     ]
