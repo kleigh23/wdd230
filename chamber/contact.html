@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="discription" content="This home page will have infomation about events and splotlight
-    bussinesses and a few other things">
+    <meta name="discription" content="This join page will be a place for business to join our chamber">
     <title>The Gate City</title>
     <link rel="shortcut icon" href="gate_favicon_2.0.ico">
     <link rel="stylesheet" href="css/normalize.css">
@@ -27,11 +26,11 @@
     <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>             
                     <ul id="primaryNav">
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="discover.html">Discover</a></li>
-                        <li><a href="#">Directory</a></li>
-                        <li><a href="#">Join</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="directory.html">Directory</a></li>
+                        <li><a href="join.html">Join</a></li>
+                        <li class="active"><a href="contact.html">Contact</a></li>
                     </ul>
                     <div class="media_icon">
                         <a href="https://www.facebook.com/"><img src="images/facebook_icon(1).png" alt="facebook logo"></a>
@@ -40,11 +39,29 @@
                     </div>
                 </nav> 
     <main class="join_main">
-        <h1 class="page_name">Join</h1>
-        <h2 class="thanks">Thank for applying! We will get back to you within a week with a response.</h2>
-
-
-
+        <h1 class="page_name">Contact</h1>
+        <div class="contact_info">
+            <p>If you have questions or need more information about joining the chamber or want to knwo more about our purpose
+                and goals feel free to contact us about it! We love hearing from you and would love to help in anyway we can!
+            </p>
+        </div>
+        <picture class="oldtown">
+            <img  class="oldimg" src="images/oldtown.jpg" alt="old town Pocatello">
+        </picture>
+        <div class="Form2">
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Us!</legend>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="someone@gamil.com" required></label>
+                    <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                    <label class="top">Submit Your Questions! <input type="text" name="questions" required></label>
+                </fieldset>
+                <input type="hidden" id="dateTime" name="dateTime">
+                <input type="submit" value="Contact Us!" class="submitBtn">
+            </form>
+        </div>
     </main>
     <footer>
         <picture class="footer_logo">
@@ -67,5 +84,6 @@
         </div>
     </footer>
     <script src="js/current_date.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>
