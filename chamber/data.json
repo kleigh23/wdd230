@@ -6,7 +6,7 @@
             "phone": "(223)555-1234",
             "websiteUrl": "#",
             "imgUrl": "images/plumbing2.0.png",
-            "memberLvl": "Member Level"
+            "memberLvl": "Member"
         },
         {
             "name": "Carolina Parakeet Pet Services",
@@ -14,7 +14,7 @@
             "phone": "(223)555-1234",
             "websiteUrl": "#",
             "imgUrl": "images/birds2.0.png",
-            "memberLvl": "Member level"
+            "memberLvl": "Member"
         },
         {
             "name": "Heath Hen Health Den",
@@ -22,7 +22,7 @@
             "phone": "(223)555-1234",
             "websiteUrl": "#",
             "imgUrl": "images/crystals.png",
-            "memberLvl": "Member level"
+            "memberLvl": "Member"
         },
         {
             "name": "Sea Mink Sports",
@@ -30,7 +30,7 @@
             "phone": "(223)555-1234",
             "websiteUrl": "#",
             "imgUrl": "images/bowling.png",
-            "memberLvl": "Member level"
+            "memberLvl": "Member"
         },
         {
             "name": "Green Anaconda Outlet",
@@ -38,15 +38,15 @@
             "phone": "(223)555-1234",
             "websiteUrl": "#",
             "imgUrl": "images/snake.png",
-            "memberLvl": "Member level"
+            "memberLvl": "Member"
         },
         {
-            "name": "Black Caiman Shoes",
+            "name": "Jeri's Jumbo",
             "address": "351 S. Studio Dr.",
-            "phone": "(223)555-1234",
-            "websiteUrl": "#",
-            "imgUrl": "images/icon-steps.png",
-            "memberLvl": "Member level"
+            "phone": "(208)237-2158",
+            "websiteUrl": "//www.jerisjumboscafe.com/?utm_source=gmb&utm_medium=referral",
+            "imgUrl": "images/pancakes_2.0.png",
+            "memberLvl": "Gold"
         },
         {
             "name": "Bull Shark Diving",
@@ -54,7 +54,7 @@
             "phone": "(223)555-1234",
             "websiteUrl": "#",
             "imgUrl": "images/shark.png",
-            "memberLvl": "Member level"
+            "memberLvl": "Member"
         },
         {
             "name": "Posion Dart Frog Coffee",
@@ -62,15 +62,15 @@
             "phone": "(223)555-1234",
             "websiteUrl": "#",
             "imgUrl": "images/amphibian.png",
-            "memberLvl": "Member level"
+            "memberLvl": "Member"
         },
         {
-            "name": "Fennec Fencing",
+            "name": "Outer Limits Fun Zone",
             "address": "1486 Buena Vista Dr.",
-            "phone": "(223)555-1234",
-            "websiteUrl": "#",
-            "imgUrl": "images/stones.png",
-            "memberLvl": "Member level"
+            "phone": "(208)202-play",
+            "websiteUrl": "//outerlimitsfunzone.com/",
+            "imgUrl": "images/ufo_2.0.png",
+            "memberLvl": "Gold"
         }
     ]
 }
