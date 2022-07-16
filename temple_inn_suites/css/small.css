@@ -1,0 +1,213 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+/* Header */
+header {
+    background-color: #aa767c;
+    padding: 1rem 2%;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.web_everything {
+    text-align: center;
+    font-family: 'Edu QLD Beginner', cursive;
+    grid-row: 2 / 3;
+}
+
+
+#today {
+    grid-row: 3 / 4;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.media_icons {
+    grid-row: 4 / 5;
+    text-align: center;
+}
+
+/* Navigation */
+nav button {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+}
+
+nav {
+    background-color: #63474d;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    font-family: 'BenchNine', sans-serif;
+    font-size: x-large;
+    color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburger span:nth-child(1) {display: block; text-align: left;}
+#hamburger span:nth-child(2) {display: none; text-align: left;}
+
+#hamburger.open span:nth-child(1) {display: none; text-align: left;}
+#hamburger.open span:nth-child(2) {display: block;text-align: left;}
+
+/* main */
+
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #FFA686;
+}
+
+.page_name {
+    border-top: 5px double;
+    border-bottom: 5px double;
+    background-color: #FEC196;
+    font-family: 'Edu QLD Beginner', cursive;
+    grid-column: 1 / 4;
+    padding: .5rem;
+}
+
+.calendar {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    width: 75%;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 330px;
+}
+
+.temple_img {
+    width: 75%;
+    border: 5px double #63474D;
+}
+
+.temple {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    text-align: center;
+    padding: 1rem;
+}
+
+.temple_info {
+    font-family: 'Montserrat', sans-serif;
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 5px double #63474D;
+    font-weight: bold;
+}
+
+.current_weather {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;    
+}
+
+.current_weather img {
+    width: 25%;
+    height: auto;
+    background-color: white;
+}
+
+.three_day_weather {
+    grid-column: 2 / 4;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px auto;
+}
+
+.three_day_weather h2 {
+    grid-column: 1 / 4;
+}
+
+.day1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    padding: 1rem;
+}
+
+.day1 img {
+    width: 75%;
+    height: auto;
+    background-color: white;    
+}
+
+.day2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 1rem;
+}
+
+.day3 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    padding: 1rem;
+}
+
+
+.day2 img {
+    width: 75%;
+    height: auto;
+    background-color: white;    
+}
+
+.day3 img {
+    width: 75%;
+    height: auto;
+    background-color: white;    
+}
+
+/* Footer */
+footer {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: #63474d; 
+    font-family: 'Montserrat', sans-serif;
+    padding: 16px;   
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}

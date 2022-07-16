@@ -81,7 +81,7 @@ let difference = Math.round((now - lastVisit)/mInDay);
 console.log(difference)
 
 if (difference == 0) {
-    visitDisplay.textContent = `Welcome to the Website!`
+    visitDisplay.textContent = `Days since last visit 0`
 } else {
     visitDisplay.textContent = (`Days since last visit ${difference}`);
 }

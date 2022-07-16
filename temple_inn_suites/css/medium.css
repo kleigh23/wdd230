@@ -1,0 +1,78 @@
+/*35rem is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+    body {
+        max-width: 1270px;
+        margin: 0 auto;
+        background-color: #FEC196;
+    }
+
+    /* Header */
+    header {
+        display: grid;
+        grid-template-columns: 100px auto;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .web_everything {
+        font-size: 1.5rem;
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+    
+    #today {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        padding: 1rem;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    
+    .media_icons {
+        grid-column:3 / 4;
+        grid-row: 2 / 3;
+        text-align: center;
+    }
+
+    /* Navigation */
+    nav button {
+        display: none;
+    }
+    
+    nav ul#normal_nav {
+        display: flex;
+        margin-left: 15vw;
+        border-left: 1px solid rgba(0, 0, 0, 0.3);
+        /* justify-content: felx-end; */
+    }
+    
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .contact {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+        padding: 1rem;
+    }
+
+    .img_title {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+        padding: 1rem;
+    }
+
+    .updates {
+        grid-column: 3 / 4;
+        grid-row:  1 / 3;
+        padding: 1rem;
+    }
+}
