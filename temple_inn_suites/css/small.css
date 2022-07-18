@@ -90,12 +90,14 @@ nav ul.open {display: block;}
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #FFA686;
+    border: solid 2px #63474D;
 }
 
 .page_name {
-    border-top: 5px double;
-    border-bottom: 5px double;
-    background-color: #FEC196;
+    border-top: 5px double #63474D;
+    border-bottom: 5px double #63474D;
+    /* background-color: #FEC196; */
+    background-color: #FEDBC2;
     font-family: 'Edu QLD Beginner', cursive;
     grid-column: 1 / 4;
     grid-row: 1 / 2;
