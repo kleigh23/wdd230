@@ -1,0 +1,30 @@
+/* 64rem is also 1028px when bsaefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+    /* Main */
+    .make_res {display: none;}
+    
+    .home {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .page_name {
+        grid-column: 1 / 5;
+    }
+
+    .calendar {
+        grid-column: 1 / 2;
+    }
+
+    .temple {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+    }
+
+    .temple_info {
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+        padding: 1rem;
+    }
+
+}

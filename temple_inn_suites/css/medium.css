@@ -35,6 +35,11 @@
         text-align: center;
     }
 
+    div#weather_alert {
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+    }
+
     /* Navigation */
     nav button {
         display: none;
@@ -80,5 +85,53 @@
         grid-column: 3 / 4;
         grid-row: 2 / 4;
         padding: 1rem;
+    }
+
+    /* Main */
+
+    .calendar {
+        grid-column: 2 / 4; 
+    }
+
+    .make_res {
+        display: block;
+        grid-column: 1 / 2;
+        padding: 1rem;
+        background-color: #FEC196;
+        border: 5px double #63474D;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-size: 30px auto;
+        margin: 10% 10% 10% 10%;
+    }
+
+    .make {
+        background-color: #63474D;
+        color: white;
+        border-radius: 5px 5px 5px 5px;
+        padding: 0.35rem;
+        font-size: 1.rem;
+        text-align: center;
+        box-shadow: 0 0 30px rgb(60, 58, 58);
+    }
+
+    .temple {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+
+    .temple_info {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+        margin: 10% 10% 10% 10%;
+    }
+
+    .current_weather {
+        grid-row: 4 / 5;
+    }
+
+    .three_day_weather {
+        grid-column: 2 / 5;
+        grid-row: 4 / 5;
     }
 }

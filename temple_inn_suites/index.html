@@ -6,6 +6,7 @@
     <meta name="Discription" content="Information about the temple you are visiting 
     and other details you may want to know">
     <title>Temple Inn & Suites</title>
+    <link rel="short cut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/normalized.css">
     <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&family=Edu+QLD+Beginner:wght@500&family=Libre+Franklin&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/small.css">
@@ -14,7 +15,7 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="images/gate_square_google.webp" alt="Logo"></a>
+        <a href="index.html"><img class="logo" src="images/hotel for temple100.png" alt="Logo"></a>
         <div class="web_everything">
             <h1 class="web_name">Temple Inn & Suites</h1>
             <h2>Make Planning Easier</h2>
@@ -24,6 +25,13 @@
             <a href="https://www.facebook.com/"><img src="images/facebook_icon.png" alt="Facebool Icon"></a>
             <a href="https://www.instagram.com/"><img src="images/instagram_icon.png" alt="Instgram Icon"></a>
             <a href="https://www.twitter.com/"><img src="images/twitter_icon.png" alt="Twitter Icon"></a>
+        </div>
+        <div id="weather_alert">
+            <button id="close">
+                close
+            </button>
+            <h3>Weather Alert</h3>
+            <span id="description"></span>
         </div>
     </header>
     <nav>
@@ -39,6 +47,10 @@
         <div class="home">
             <h1 class="page_name">Home</h1>
             <iframe class ="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffa686&ctz=America%2FLos_Angeles&showTitle=0&showCalendars=0&showPrint=0&showNav=1&showTabs=0&showTz=1&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%230B8043" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <div onclick="location.href='reservation.html'" class="make_res">
+                <h3>Make a Reservation!</h3>
+                <button class="make">Reservation</button>
+            </div>
             <div class="temple">
                 <picture>
                     <source media="(max-width: 400px)" srcset="images/idaho_falls_idaho_temple400.jpg">
@@ -65,7 +77,7 @@
             </div>
 
             <div class="three_day_weather">
-                <h2>Three Day Forcast</h2>
+                <h2>The Next Three Days Forcast</h2>
                 <div class="day1">
                     <img src="images/placeholder-300x400.png" alt="logo of the weather" id="weather-icon1"><h2 class="temp1"><span id="tempeture1"></span>&deg;</h2>
                 </div>
@@ -90,7 +102,7 @@
             <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9833814,-77.0974142,16.75z/data=!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">Map</a>
         </div>
         <div class="img_title">
-            <img src="images/gate_square_google.webp" alt="Logo">
+            <img src="images/hotel for temple100.png" alt="Logo">
             <p class="title">Temple Inn & Suites</p>
         </div>
         <div class="updates">

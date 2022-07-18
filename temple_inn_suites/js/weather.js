@@ -9,6 +9,10 @@ const weatherIcon2 = document.querySelector('#weather-icon2');
 const weatherIcon3 = document.querySelector('#weather-icon3');
 const captionDesc = document.querySelector('#desc');
 const humidity = document.querySelector('#humidity');
+const alerts = document.querySelector('#description');
+const alert_banner = document.querySelector('#weather_alert')
+
+
 
 // URL for fairbanks
 const apiURL = "//api.openweathermap.org/data/2.5/onecall?lat=42.880363&lon=-112.452911&exclude=minutely,hourly&appid=9afe136e49088b5b87c8d223d0de020c&units=imperial"
@@ -24,6 +28,21 @@ fetch(apiURL)
     currentTemp2.innerHTML = `<strong>${data.daily[2].temp.max.toFixed(0)}</strong>`;
     currentTemp3.innerHTML = `<strong>${data.daily[3].temp.max.toFixed(0)}</strong>`;
     humidity.innerHTML = `${data.current.humidity.toFixed(0)}`
+    alerts.innerHTML = `${data.alerts[0].description}`;
+
+    let start = `${data.alerts[0].start}`;
+    let end = `${data.alerts[0].end}`;
+    let start1 = Number(Date.now())
+    let start2 = Number(window.localStorage.getItem("visit-is"))
+    let now = new Date()
+    console.log(start1)
+    console.log(start)
+    console.log(end)
+    if (end <= now) {
+      alert_banner.classList.add("showme");
+    } else {
+      alert_banner.classList.add("hideme");
+    }
 
     const iconsrc = `//openweathermap.org/img/w/${data.current.weather[0].icon}.png`;
     const iconsrc1 = `//openweathermap.org/img/w/${data.daily[1].weather[0].icon}.png`;
@@ -38,3 +57,10 @@ fetch(apiURL)
     captionDesc.textContent = desc.toUpperCase();
 
   });
+
+  window.onload = () => {
+    document.querySelector("#close").onclick = function() {
+      this.parentNode.remove()
+      return false;
+    }
+  }
