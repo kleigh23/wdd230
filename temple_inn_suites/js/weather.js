@@ -14,7 +14,7 @@ const alert_banner = document.querySelector('#weather_alert')
 
 
 
-// URL for fairbanks
+// URL for pocatello
 const apiURL = "//api.openweathermap.org/data/2.5/onecall?lat=42.880363&lon=-112.452911&exclude=minutely,hourly&appid=9afe136e49088b5b87c8d223d0de020c&units=imperial"
 
 
@@ -58,6 +58,7 @@ fetch(apiURL)
 
   });
 
+  //close the alert function
   window.onload = () => {
     document.querySelector("#close").onclick = function() {
       this.parentNode.remove()
