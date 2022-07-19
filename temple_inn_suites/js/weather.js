@@ -28,18 +28,19 @@ fetch(apiURL)
     currentTemp2.innerHTML = `<strong>${data.daily[2].temp.max.toFixed(0)}</strong>`;
     currentTemp3.innerHTML = `<strong>${data.daily[3].temp.max.toFixed(0)}</strong>`;
     humidity.innerHTML = `${data.current.humidity.toFixed(0)}`
-    alerts.innerHTML = `${data.alerts[0].description}`;
 
-    let start = `${data.alerts[0].start}`;
-    let end = `${data.alerts[0].end}`;
-    let start1 = Number(Date.now())
-    let start2 = Number(window.localStorage.getItem("visit-is"))
-    let now = new Date()
-    console.log(start1)
-    console.log(start)
-    console.log(end)
-    if (end <= now) {
-      alert_banner.classList.add("showme");
+    if (data.alert) {
+      alerts.innerHTML = `${data.alerts[0].description}`;
+      let start = `${data.alerts[0].start}`;
+      let end = `${data.alerts[0].end}`;
+      let start1 = Number(Date.now())
+      let now = new Date()
+      console.log(start1)
+      console.log(start)
+      console.log(end)
+      if (end <= now) {
+        alert_banner.classList.add("showme");
+      }
     } else {
       alert_banner.classList.add("hideme");
     }

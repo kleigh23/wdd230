@@ -225,6 +225,53 @@ div.hideme{display: none;}
     background-color: white;    
 }
 
+/* Temple page */
+.temple_page {
+    background-color: #FFA686;
+    border: solid 2px #63474D;
+    padding: 1rem;
+}
+
+section {
+    text-align: center;
+    border: 5px double #63474D;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 30px rgb(60, 58, 58);
+    padding: 1rem;
+    margin: 16px;
+}
+
+section h2 {
+    font-family: 'Albert Sans', sans-serif;
+}
+
+section p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+section img {
+    width: 75%;
+    box-shadow: 0 0 30px rgb(60, 58, 58);
+    
+}
+
+.list li {
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .list li:hover:after,
+  .list li.fav:after {
+    content: ' \2605';
+    color: rgb(255, 255, 255);
+  }
+  .list li.fav:hover:after {
+    content: ' \2606';
+  }
+
 /* Footer */
 footer {
     margin: 0 auto;

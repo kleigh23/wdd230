@@ -1,0 +1,52 @@
+{
+    "temples": [
+        {
+            "name": "Mesa Arizona Temple",
+            "address": "101 S LeSueur Mesa AZ 85204-1031 United States",
+            "phone": "(1)480-833-1211",
+            "email": "email@address.org",
+            "services": "Clothing rental available No cafeteria available No patron housing available Distribution center nearby",
+            "history": "1 October 1919 Announced 25 April 1922 Groundbreaking 23 October 1927 Dedicated 15 April 1975 Rededicated 12 December 2021 Rededicated",
+            "ord_schedule": "By appointment only",
+            "sess_schedule": "By appointment only",
+            "close_schedule": "Monday, 18 July 2022 - Monday, 1 August 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022 Saturday, 24 December 2022 Saturday, 31 December 2022",
+            "image": "images/mesa_temple_crop900.jpg"
+        },
+        {
+            "name": "Orlando Florida Temple",
+            "address": "9000 Windy Ridge Rd Windermere FL 34786-8347 United States",
+            "phone": "(1) 407-876-0022",
+            "email": "email@address.org",
+            "services": "Clothing rental available No cafeteria available No patron housing available Distribution center nearby",
+            "history": "6 April 1991 Announced 20 June 1992 Groundbreaking 9 October 1994 Dedicated",
+            "ord_schedule": "By appointment only",
+            "sess_schedule": "By appointment only",
+            "close_schedule": "Sunday, 28 August 2022 - Monday, 19 September 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 - Thursday, 24 November 2022 Saturday, 24 December 2022 Saturday, 31 December 2022",
+            "image": "images/orlando_temple900.jpg"
+        },
+        {
+            "name": "Philadelphia Pennsylvania Temple",
+            "address": "1739 Vine St Philadelphia PA 19103 United States",
+            "phone": "(1) 215-398-3040",
+            "email": "email@address.org",
+            "services": "Clothing rental available No cafeteria available No patron housing available Distribution center nearby",
+            "history": "4 October 2008 Announced 17 September 2011 Groundbreaking 18 September 2016 Dedicated",
+            "ord_schedule": "By appointment only",
+            "sess_schedule": "By appointment only",
+            "close_schedule": "Monday, 19 September 2022 - Monday, 10 October 2022 Wednesday, 23 November 2022 - Thursday, 24 November 2022 Saturday, 24 December 2022 - Sunday, 25 December 2022 Saturday, 31 December 2022",
+            "image": "images/philadelphia_pennsylvania900.jpg"
+        },
+        {
+            "name": "Washington D.C. Temple",
+            "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 United States",
+            "phone": "",
+            "email": "",
+            "services": "",
+            "history": "15 November 1968 Announced 7 December 1968 Groundbreaking 19 November 1974 Dedicated — dedicatory prayer 14 August 2022 Rededicated",
+            "ord_schedule": "",
+            "sess_schedule": "",
+            "close_schedule": "Closed for renovations",
+            "image": "images/washington_dc900.jpg"
+        }
+    ]
+}
