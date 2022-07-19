@@ -91,6 +91,7 @@ nav ul.open {display: block;}
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #FFA686;
     border: solid 2px #63474D;
+    padding: 1rem;
 }
 
 .page_name {
@@ -271,6 +272,164 @@ section img {
   .list li.fav:hover:after {
     content: ' \2606';
   }
+
+  /* Thank you page */
+  .thank_you_page {
+    background-color: #FFA686;
+    border: solid 2px #63474D;
+    padding: 1rem;
+    text-align: center;
+}
+
+.thank_you_page h2 {
+    border-top: double 5px #63474D;
+    border-bottom: double 5px #63474D;
+    text-align: center;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 45px;
+}
+
+.thank_you_page img {
+    width: 40%;
+    border: double 5px #63474D;
+}
+
+/* Reservation Page */
+.reservation_page {
+    background-color: #FFA686;
+    border: solid 2px #63474D;
+    padding: 1rem;
+}
+
+.Form {
+    grid-column: 1 / 5;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #63474D;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    background-color: #FEDBC2;
+}
+
+form legend {
+    color: #63474D;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    border: solid 1px #63474D;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #FEDBC2;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #561000;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-apearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    /* background-color: rgba(0,0,0,0.1); */
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem;
+    color: #63474D;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #aa767c;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form label.top input {
+    background-color: white;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+    background-color: white;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+    background-color: white;
+}
+
+.laie_img {
+    display: none;
+}
+
+.pitt_img {
+    display: none;
+}
+
+/* Service Page */
+.service_page {
+    background-color: #FFA686;
+    border: solid 2px #63474D;
+    padding: 1rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.page_name_service {
+    border-top: 5px double #63474D;
+    border-bottom: 5px double #63474D;
+    /* background-color: #FEC196; */
+    background-color: #FEDBC2;
+    font-family: 'Edu QLD Beginner', cursive;
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    padding: .5rem;
+    text-align: left;
+}
+
+.room_picture {
+    grid-column: 1 / 5;
+}
+
+.pool_picture {
+    grid-column: 1 / 5;
+}
+
+.room_img {
+    border: double 5px #63474D;
+    width: 75%;
+}
+
+.pool_img {
+    border: double 5px #63474D;
+    width: 75%;
+}
+
+.service_list {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    grid-column: 2 / 4;
+}
 
 /* Footer */
 footer {

@@ -27,4 +27,58 @@
         padding: 1rem;
     }
 
+    /* Reservation Page */
+    .reservation_page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 1fr 1fr;
+    }
+
+    .Form {
+        grid-column: 1 / 2;
+        grid-row: 2 / 4;
+    }
+
+    .laie_temple {
+        grid-column: 2 / 3;
+        padding: 1rem;
+    }
+
+    .pitt_temple {
+        grid-column: 2 / 3;
+        padding: 1rem;
+    }
+
+    .laie_img {
+        display: block;
+        border: 5px double #63474D;
+    }
+
+    .pitt_img {
+        display: block;
+        border: 5px double #63474D;
+    }
+
+    /* Service Page */
+    .service_page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .room_picture {
+        grid-column: 1 / 2;
+    }
+    
+    .pool_picture {
+        grid-column: 1 / 2;
+    }
+
+    
+    .service_list {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        text-align: left;
+        grid-column: 2 / 3;
+    }
+
 }

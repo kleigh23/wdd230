@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Discription" content="Information about the temple you are visiting 
-    and other details you may want to know">
+    <meta name="Discription" content="Where you place a reservation">
     <title>Temple Inn & Suites</title>
     <link rel="short cut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/normalized.css">
@@ -37,7 +36,122 @@
         </ul>
     </nav>
     <main>
-        <div class="main">
+        <div class="reservation_page">
+            <h1 class="page_name">Reservation</h1>
+            <div class="Form">
+                <form class="form" method="get" action="thank_you.html">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <label class="top">First Name* <input type="text" name="fname" required></label>
+                        <label class="top">Last Name* <input type="text" name="lname" required></label>
+                        <label class="top">Email* <input type="email" name="email" placeholder="someone@gamil.com" required></label>
+                        <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234" required></label>
+                        <label class="top">State 
+                            <select name="state">
+                                <option value="">Please Select &#9662;</option>
+                                <option value="al">AL</option>
+                                <option value="ak">AK</option>
+                                <option value="az">AZ</option>
+                                <option value="ar">AR</option>
+                                <option value="as">AS</option>
+                                <option value="ca">CA</option>
+                                <option value="co">CO</option>
+                                <option value="ct">CT</option>
+                                <option value="de">DE</option>
+                                <option value="dc">DC</option>
+                                <option value="fl">FL</option>
+                                <option value="ga">GA</option>
+                                <option value="gu">GU</option>
+                                <option value="hi">HI</option>
+                                <option value="id">ID</option>
+                                <option value="il">IL</option>
+                                <option value="in">IN</option>
+                                <option value="ia">IA</option>
+                                <option value="ks">KS</option>
+                                <option value="ky">KY</option>
+                                <option value="la">LA</option>
+                                <option value="me">ME</option>
+                                <option value="md">MD</option>
+                                <option value="ma">MA</option>
+                                <option value="mi">MI</option>
+                                <option value="mn">MN</option>
+                                <option value="ms">MS</option>
+                                <option value="mo">MO</option>
+                                <option value="mt">MT</option>
+                                <option value="ne">NE</option>
+                                <option value="nv">NV</option>
+                                <option value="nh">NH</option>
+                                <option value="nj">NJ</option>
+                                <option value="nm">NM</option>
+                                <option value="ny">NY</option>
+                                <option value="nc">NC</option>
+                                <option value="nd">ND</option>
+                                <option value="cm">CM</option>
+                                <option value="oh">OH</option>
+                                <option value="ok">OK</option>
+                                <option value="or">OR</option>
+                                <option value="pa">PA</option>
+                                <option value="pr">PR</option>
+                                <option value="ri">RI</option>
+                                <option value="sc">SC</option>
+                                <option value="sd">SD</option>
+                                <option value="tn">TN</option>
+                                <option value="tx">TX</option>
+                                <option value="tt">TT</option>
+                                <option value="ut">UT</option>
+                                <option value="vt">VT</option>
+                                <option value="va">VA</option>
+                                <option value="vi">VI</option>
+                                <option value="wa">WA</option>
+                                <option value="wv">WV</option>
+                                <option value="wi">WI</option>
+                                <option value="wy">WY</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Reservation Information</legend>
+                        <label class="top">Location
+                            <select name="location">
+                                <option value="">Please Select &#9662;</option>
+                                <option value="mesa">Mesa Arizona</option>
+                                <option value="orlando">Orlando Florida</option>
+                                <option value="philly">Philadelphia Pennsylvania</option>
+                                <option value="washington">Washington D.C.</option>
+                            </select>
+                        </label>
+                        <label class="top">Check In <input type="date" name="completionDate"></label>
+                        <label class="top">Check Out <input type="date" name="completionDate"></label>
+                        <label class="top">Number of Rooms
+                            <select name="room">
+                                <option value="">Please Select &#9662;</option>
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                                <option value="three">3</option>
+                            </select>
+                        </label>
+                        <label class="top">Room type
+                            <select name="room_type">
+                                <option value="">Please Select &#9662;</option>
+                                <option value="studio">Studio</option>
+                                <option value="two_queen">Two Queen</option>
+                                <option value="king">King</option>
+                                <option value="two_queen_deluxe">Two Queen Deluxe</option>
+                                <option value="king_delux">King Deluxe</option>
+                            </select>
+                        </label>
+                        <label class="top">Special Accommodations/Comments <input type="text" name="special"></label>
+                    </fieldset>
+                    <input type="hidden" id="dateTime" name="dateTime">
+                    <input type="submit" value="Reserve Now" class="submitBtn">
+                </form>
+            </div> 
+            <div class="laie_temple">
+                <img class="laie_img" src="images/laie_hawaii640.jpg" alt="laie temple">
+            </div>
+            <div class="pitt_temple">
+                <img class="pitt_img" src="images/pittsburgh_pennsylvania640.jpg" alt="pittsburgh temple">
+            </div>           
 
         </div>
     </main>
