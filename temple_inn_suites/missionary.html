@@ -33,45 +33,48 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="temple.html">Temple</a></li>
             <li><a href="reservation.html">Reservation</a></li>
-            <li class="active"><a href="services.html">Services</a></li>
+            <li><a href="services.html">Services</a></li>
         </ul>
     </nav>
     <main>
         <div class="service_page">
-            <h1 class="page_name_service">Services</h1>
-                <a class="rec_link" href="reception.html">Planning a Reception?</a>
-                <a class="miss_link" href="missionary.html">Temple Missionary</a>
-            
+            <h1 class="page_name_service">Full-Time Temple Missionary </h1>
             
             <picture class="room_picture">
-                <source media="(max-width: 400px)" srcset="images/hotel_room400.jpg">
-                <source media="(max-width: 640px)" srcset="images/hotel_room640.jpg">
-                <source media="(max-width: 900px)" srcset="images/hotel_room900.jpg">                
-                <img class="room_img" src="images/hotel_room900.jpg" alt="hotel room">
+                <source media="(max-width: 400px)" srcset="images/bed400.jpg">
+                <source media="(max-width: 640px)" srcset="images/bed640.jpg">
+                <source media="(max-width: 900px)" srcset="images/bed900.jpg">                
+                <img class="room_img" src="images/bed900.jpg" alt="hotel room">
             </picture>
 
             <ul class="service_list">
-                <li>Toiletries</li>
-                <li>Personal care</li>
-                <li>Hot chocolate kit</li>
-                <li>Bathrobes and slippers</li>
-                <li>Options for pillows</li>
-                <li>Free WiFi internet access</li>
+                <li>Close to temples</li>
+                <li>Public transportation to temple</li>
+                <li>Free bubble bath after long day</li>
+                <li>A copy of Johnny Lingo for each room</li>
             </ul>
 
-            <picture class="pool_picture">
-                <source media="(max-width: 400px)" srcset="images/hotel_pool400.jpg">
-                <source media="(max-width: 640px)" srcset="images/hotel_pool640.jpg">
-                <source media="(max-width: 900px)" srcset="images/hotel_pool900.jpg">                
-                <img class="pool_img" src="images/hotel_pool900.jpg" alt="hotel room">
+            <picture class="gym_picture">
+                <source media="(max-width: 400px)" srcset="images/hotel_room_two400.jpg">
+                <source media="(max-width: 640px)" srcset="images/hotel_room_two640.jpg">
+                <source media="(max-width: 900px)" srcset="images/hotel_room_two900.jpg">                
+                <img class="pool_img" src="images/hotel_room_two900.jpg" alt="hotel room">
             </picture>
-
-            <ul class="service_list">
-                <li>Free Breakfast</li>
-                <li>Free parking</li>
-                <li>Pool</li>
-                <li>Fitness center</li>
-            </ul>
+            
+            <div class="Form_missionary">
+                <form method="get" action="thank_you.html">
+                    <fieldset>
+                        <legend>Contact Us</legend>
+                        <label class="top">First Name* <input type="text" name="fname" required></label>
+                        <label class="top">Last Name* <input type="text" name="lname" required></label>
+                        <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                        <label class="top">Questions <input type="text" name="questions"></label>
+                    </fieldset>
+                    <input type="hidden" id="dateTime" name="dateTime">
+                    <input type="submit" value="Contact Us" class="submitBtn">
+                </form>
+            </div> 
 
         </div>
     </main>

@@ -431,6 +431,57 @@ form label.top input:required:valid {
     grid-column: 2 / 4;
 }
 
+.rec_link {
+    grid-column: 1 / 2;
+}
+
+.miss_link {
+    grid-column: 1 / 2;
+}
+
+.service_page a {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+    padding: .5rem;
+}
+
+/* Missionary Page */
+.Form_missionary {
+    grid-column: 1 / 5;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.gym_picture {
+
+    grid-column: 1 / 5;
+}
+
+/* Reception Page */
+.ball_img {
+    width: 100%;
+}
+
+.p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: .5rem;
+}
+
+.recomend_list {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.recomend_list li {
+    list-style-type: none;
+}
+
 /* Footer */
 footer {
     margin: 0 auto;
