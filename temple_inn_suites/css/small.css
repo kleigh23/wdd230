@@ -105,10 +105,6 @@ nav ul.open {display: block;}
     padding: .5rem;
 }
 
-.make_res {
-    display: none;
-}
-
 div#weather_alert {
     grid-column: 1 / 2;
     grid-row: 5 / 6;
@@ -129,6 +125,29 @@ button#close {
 div.showme{display: block;}
 div.hideme{display: none;}
 
+.make_res {
+    display: block;
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    padding: 1rem;
+    background-color: #FEC196;
+    border: 5px double #63474D;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30px auto;
+    margin: 10% 10% 10% 10%;
+}
+
+.make {
+    background-color: #63474D;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0.35rem;
+    font-size: 1.rem;
+    text-align: center;
+    box-shadow: 0 0 30px rgb(60, 58, 58);
+}
+
 .calendar {
     grid-column: 1 / 4;
     grid-row: 2 / 3;
@@ -147,7 +166,7 @@ div.hideme{display: none;}
 
 .temple {
     grid-column: 1 / 4;
-    grid-row: 3 / 4;
+    grid-row: 4 / 5;
     text-align: center;
     padding: 1rem;
 }
@@ -155,7 +174,7 @@ div.hideme{display: none;}
 .temple_info {
     font-family: 'Montserrat', sans-serif;
     grid-column: 1 / 4;
-    grid-row: 4 / 5;
+    grid-row: 5 / 6;
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
@@ -165,7 +184,7 @@ div.hideme{display: none;}
 
 .current_weather {
     grid-column: 1 / 2;
-    grid-row: 5 / 6;
+    grid-row: 6 / 7;
     font-family: 'Montserrat', sans-serif;
     text-align: center;    
 }
@@ -178,7 +197,7 @@ div.hideme{display: none;}
 
 .three_day_weather {
     grid-column: 2 / 4;
-    grid-row: 5 / 6;
+    grid-row: 6 / 7;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     display: grid;

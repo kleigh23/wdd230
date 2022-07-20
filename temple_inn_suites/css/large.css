@@ -12,18 +12,29 @@
         grid-column: 1 / 5;
     }
 
+    .make_res {
+        display: block;
+        grid-column: 1 / 5;
+        grid-row: 2 / 3;
+        margin: 0;
+        width: 75%;
+        margin-left: 12%;
+    }
+
     .calendar {
         grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        height: 700;
     }
 
     .temple {
         grid-column: 2 / 4;
-        grid-row: 2 / 3;
+        grid-row: 3 / 4;
     }
 
     .temple_info {
         grid-column: 4 / 5;
-        grid-row: 2 / 3;
+        grid-row: 3 / 4;
         padding: 1rem;
     }
 
